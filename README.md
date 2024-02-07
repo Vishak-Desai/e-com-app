@@ -1,2 +1,2 @@
 # e-com-app
-e-com-app vishakDesai@1999 branch
+e-commerce portfolio purpose demo app.
