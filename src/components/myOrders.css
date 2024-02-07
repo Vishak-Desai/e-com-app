@@ -1,0 +1,131 @@
+.myOrders {
+    background-color: #E3F2C1;
+    min-height: 750px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.orderHolder {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: #AAC8A7;
+    min-height: 500px;
+    width: 80%;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 10px 10px 10px rgb(103, 102, 102);
+    padding-bottom: 30px;
+}
+
+.orderText {
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: 700;
+    text-decoration: 5px solid underline;
+    text-underline-offset: 10px;
+    margin-bottom: 25px;
+}
+
+.orderTable {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    width: 80%;
+}
+
+.productOrder{
+    border-radius: 10px;
+    background-color: white;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    border: 2px solid rgb(37, 37, 37);
+    box-shadow: 5px 5px 5px rgb(93, 91, 91);
+}
+
+.orderData{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.orderImg{
+    margin-top: 40px;
+    max-width: 100%;
+    min-width: 20%;
+    min-height: 10rem;
+    max-height: 13rem;
+    margin-right: 30px;
+}
+
+.orderName {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.orderQuantity{
+    display: flex;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.amount{
+    margin-top: 5px;
+    display: flex;
+    font-size: large;
+    font-weight: 600;
+}
+
+.amount p {
+    color: rgb(68, 68, 249);
+}
+
+.orderStatus{
+    display: flex;
+    font-size: large;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.orderStatus p{
+    color: rgb(24, 196, 1);
+}
+
+.woohoo{
+    margin-top: -15px;
+    font-size:  x-large;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.cancelButton{
+    text-align: center;
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(251, 67, 67);
+    border-radius: 7px;
+}
+
+.cancelButton:hover{
+    color: red;
+    background-color: white;
+}
+
+.myOrdersIsEmpty{
+    font-weight: 600;
+    font-size: xxx-large;
+    text-align: center;
+    margin-top: 150px;
+}

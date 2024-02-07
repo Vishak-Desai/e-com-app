@@ -1,0 +1,126 @@
+.form-holder{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 20px;
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.logo{
+    width: 60px;
+}
+
+#userName{
+    padding: 5px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+#userName:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.form{
+    width: 100%;
+}
+
+.userLabel{
+    font-weight: 500;
+}
+
+#password{
+    padding: 5px;
+    width: 87%;
+    margin-top: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+#password:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.passwordLabel{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.signIn-form{
+    font-size: xx-large;
+    margin-top: -30px;
+    margin-bottom: 10px;
+}
+
+.signIn-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signIn-button{
+    margin-top: 25px;
+    width: 100%;
+    background-color: rgb(0, 166, 255);
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(137, 137, 137)
+}
+
+.signIn-button:hover{
+    background-color: rgb(0, 102, 255);
+}
+
+.eyeIcon{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 0px 5px 5px 0px;
+    position: absolute;
+    margin-left: 258px;
+    margin-top: 5px;
+}
+
+.eyeIcon:hover{
+    cursor: pointer;
+}
+
+.userError{
+    margin-bottom: 0px;
+    color: red;
+}
+
+.passError{
+    margin-bottom: 0px;
+    color: red;
+}
+
+.para{
+    margin-top: 10px;
+    color: rgb(93, 0, 255);
+}
+
+.createAcc{
+    border: 2px solid rgb(185, 184, 184);
+    padding: 6px;
+    text-decoration: none;
+    background-color: rgb(193, 190, 190);
+    color: rgb(82, 23, 23);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.createAcc:hover{
+    background-color: rgb(165, 162, 162);
+    color: rgb(82, 23, 23);
+}

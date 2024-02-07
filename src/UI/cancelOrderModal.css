@@ -1,0 +1,69 @@
+.cancelOrderModal{
+    display: flex;
+    justify-content: center;
+}
+
+.cancelOrdermodal-holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    z-index: 999;
+    border-radius: 20px;
+    margin-top: 75px;
+    border: 2px solid black;
+    position: fixed;
+}
+
+.orderTextModal{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+.cancelModal{
+    background-color: rgb(253, 47, 47);
+    color: white;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.cancelModal:hover{
+    background-color: white;
+    color: red;
+}
+
+.dontCancelModal{
+    background-color: rgb(4, 255, 4);
+    color: black;
+    border-radius: 5px;
+    width: 40%;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.dontCancelModal:hover{
+    background-color: white;
+    color: rgb(4, 255, 4);
+}
+
+.orderOverlayModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5000px;
+    z-index: 100;
+    background-color: black;
+    opacity: 0.5;
+  }
+
+.orderButtonGroup{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}

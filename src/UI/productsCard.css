@@ -1,0 +1,116 @@
+.productsList {
+    width: 100%;
+    background-color: #AAC8A7;
+    border-radius: 10px;
+    min-height: 500px;
+    height: fit-content;
+    border: 2px solid rgb(134, 133, 133);
+    box-shadow: 10px 10px 10px rgb(109, 109, 109);
+}
+
+.card-holder {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    min-height: 300px;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product {
+    margin: 0 auto;
+    font-size: xx-large;
+    font-weight: 750;   
+}
+
+.card {
+    background-color: white;
+   width: auto;
+   flex: 0 1 100%;
+   margin: 20px;
+   text-align: center;
+   border: 2px solid rgb(130, 130, 130);
+   box-shadow: 5px 5px 10px rgb(43, 42, 42);
+   max-width: 18rem;
+   height: auto;
+   display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.productsImage {
+   margin-top: 20px;
+   width: auto;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.addToCartButton {
+    background-color: rgb(68, 68, 249);
+    color: white;
+    padding: 10px;
+    margin: 0 20px 30px 20px;
+    border-radius: 5px;
+    width: 0 auto;
+}
+
+.addToCartClicked{
+    background-color: rgb(68, 235, 68);
+    transition: all .6s ease-in;
+    color: rgb(28, 27, 27);
+    padding: 10px;
+    margin: 0 20px 30px 20px;
+    border-radius: 5px;
+    width: 0 auto;
+}
+
+.productsImg {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid rgb(166, 164, 164);
+    border-radius: 5px;
+    box-shadow: 3px 5px 5px rgb(57, 56, 56);
+    max-width: 100%;
+    min-width: 50%;
+    min-height: 10rem;
+    max-height: 10rem;
+}
+
+.addToCartButton:hover {
+    background-color: white;
+    color: rgb(68, 68, 249);
+}
+
+.productsName {
+    font-size: larger;
+    font-weight: 500;
+    color: black;
+    padding-top: 10px;
+    margin: 0 auto 10px auto;
+    width: 80%;
+}
+
+.price {
+    color: blue;
+    font-size: large;
+    font-weight: 600;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.productsImg:hover {
+    transform: scale(1.2);
+}
+
+.loading-products{
+    font-size: xx-large;
+    font-weight: 700;
+    margin: auto;
+}

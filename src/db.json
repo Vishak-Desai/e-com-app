@@ -1,0 +1,154 @@
+{
+  "productsData": [
+    {
+      "id": 1,
+      "type": "mobile",
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRP_JvWlp0WgV3sniR0rg_EUboa7gKPbmT3li5jzVU6xVbOTJOUZPgQX4u-XAq1Y89AKph9xF6xfM0JYgRfzQQQUcYCVgeodNq-QDK25ZT7IUzPrM29RGAhAT07wHMdEPQIVhU&usqp=CAc",
+      "name": "Samsung Galaxy S21",
+      "price": 31000
+    },
+    {
+      "id": 2,
+      "type": "mobile",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSsco7Ms_jmHc47D_VZ2iYvMmcmIZbru6O4_bwtrd7hXVNVQlxxtzs2xQnY4iCIdQPh00vUzWnSE-EXUEvQ8xjRDEQEe7yJ",
+      "name": "iPhone 14 Pro Max",
+      "price": 127999
+    },
+    {
+      "id": 3,
+      "type": "mobile",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQDech0xM1y9mAbMK6BOnCs_VpbKoTLFbY9zvutRVJN55Ewkz6nmg3dqQbAQ8dCm8hG1kZVIL7aozz7iFu-tqGWtQ2Wk9mJD-20gBXWSHVV37HBBjjLxlMxjYpjRfQaFZRESLc&usqp=CAc",
+      "name": "Redmi 11 Prime 5G",
+      "price": 15999
+    },
+    {
+      "id": 4,
+      "type": "laptop",
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSJuKMsoGgBoEk7SUJigEVK6oArMSy4RMhwBmQGq78QyyTPNavRsU18Dm-oqPkbHVqgKSSXeBSZaynFMEeZMuRnaV75Fgu-jfk1u2fs3qyQ8xrXAj87cV83QykPiTGFxQ4D730&usqp=CAc",
+      "name": "HP Pavillion-14",
+      "price": 62999
+    },
+    {
+      "id": 5,
+      "type": "laptop",
+      "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQLkGS9wpiotgz6tN373FKJOJ1tXvmr95bqSA6Fe691JeOKIZxzTLO2rxO34ObrHIXlj18pZu602sCsEzD1GPEV-WLT23DSMlr4GTAeoJuIKEKLBlil06Sb2w&usqp=CAc",
+      "name": "Dell Inspiron-16",
+      "price": 70990
+    },
+    {
+      "id": 6,
+      "type": "tv",
+      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSXmwEMWaknmKlcg-zQ4OzU8d1hsURIOV-amr98ay6RjPAvByCy9ce2or_5ZWL4_EJgXh7KOGFT8uiUiCK-DsKuJQ_hfioD-TgSCDUyM-s-bXHHtRz04_XqFFDbCeQyKMUSheA&usqp=CAc",
+      "name": "Redmi Smart TV 32",
+      "price": 10999
+    },
+    {
+      "id": 7,
+      "type": "tv",
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSadniC3pffRD0zRiZ-WUOsU0SuZ5v2lj6F4SD6detXSdCpMz9tDsUX6_fyO4r1A_CYPe3LvIzBkN7j98RNs7jz7LDy-qJLtFfF4FIjCCeq5I703OekE8h8pBxu-5TX3NZglg&usqp=CAc",
+      "name": "Samsung 32 HD TV",
+      "price": 14990
+    },
+    {
+      "id": 8,
+      "type": "cloth",
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRImwZEDwpZEnkDtMxsQB0bVK1AKnoyBWKpvYyLso8jKBrQ0l5v7G2Hoe45z4ZT0syCzXPnV8Ijts_zJJWTXuADWsuTURqnvMe1oZgAMwP4M1pmV-F7pkagOLIpmcexOU9wMOw&usqp=CAc",
+      "name": "Peter England men T-shirt",
+      "price": 599
+    },
+    {
+      "id": 9,
+      "type": "cloth",
+      "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR5lCenslnHKUy2VqJ-UULQ77KJGoTZQWVcnyTVv5dMOxdtCNw4gyi9H0lS55RnhEQtDVYo3ODzj-tXETWR2XEztUJrcqRUrRGbeOI7dbaZ0EzYB2MJ_nPx&usqp=CAc",
+      "name": "Karagiri Pink Patola Saree",
+      "price": 3899
+    },
+    {
+      "id": 10,
+      "type": "furniture",
+      "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTzgtekW0wrpv0jBQwDpeYJq3QAl8DQao0wW0JQ2LrHByBt0fy0RXLg66TCgrKLGa6k0kHrUVjcDFjYXTUEdiBUXURADG8pvPFfcchRYq220uIw4k31hqYZ3K0fcRF1AqynPZo&usqp=CAc",
+      "name": "Palo Sofa - 2.5 Seater",
+      "price": 33200
+    },
+    {
+      "id": 11,
+      "type": "furniture",
+      "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTcnZDWHjayYvfmZ3RSjHNJPWzogENQTAIY3YIg6pTEP48Q9jmT4TSRVyMOMv41pJR9-KJKskqpUsRmWRzwQPyh6qtVmLLiwTIsnZQJsENrpYBuIncSMDKkVS1pafUl4VrfyF8&usqp=CAc",
+      "name": "Nilkamal Willy 3-door",
+      "price": 13850
+    },
+    {
+      "id": 12,
+      "type": "cloth",
+      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSYUO1Q5M178hzjBgWTr86cxeJGww70DmmKT0ES1Cd16mJ1VFZgchGJ4ln9amk0_ioj2uw0B7oFc0z3dd9cVQLXQvbHttlUcxAimFYnUmc8Opc71yWF61KU4VA6kZy13AD18QI&usqp=CAc",
+      "name": "Babyhug Full Sleeves",
+      "price": 605
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "city": "hi"
+    },
+    {
+      "firstname": "Vishak",
+      "lastname": "Desai",
+      "email": "vishak.dwd0836@gmail.com",
+      "phoneNumber": "8217696378",
+      "username": "Vishak1999",
+      "password": "vishak",
+      "street-address": "suvidha apmt, kabbur road",
+      "street-address-2": "malamaddi",
+      "city": "dharwad",
+      "zipcode": "580007",
+      "state": "karnataka",
+      "country": "India",
+      "id": 2
+    },
+    {
+      "firstname": "vinayak",
+      "lastname": "desai",
+      "email": "vgdesai@gmail.com",
+      "phoneNumber": "9448490510",
+      "username": "Vinayak1960",
+      "password": "vinayak",
+      "street-address": "Kabbur road",
+      "street-address-2": "",
+      "city": "Dharwad",
+      "zipcode": "580007",
+      "state": "KARNATAKA",
+      "country": "India",
+      "id": 3
+    },
+    {
+      "firstname": "chitra",
+      "lastname": "desai",
+      "email": "chitra@gmail.com",
+      "phoneNumber": "9620718921",
+      "username": "Chitra1968",
+      "password": "chitra",
+      "street-address": "Kabbur road",
+      "street-address-2": "",
+      "city": "Dharwad",
+      "zipcode": "580007",
+      "state": "KARNATAKA",
+      "country": "India",
+      "id": 4
+    },
+    {
+      "firstname": "shrikant",
+      "lastname": "sankangoudar",
+      "email": "shrikant@gmail.com",
+      "phoneNumber": "1234567890",
+      "username": "Shrikant2000",
+      "password": "shrikant",
+      "street-address": "Kabbur road",
+      "street-address-2": "",
+      "city": "Dharwad",
+      "zipcode": "580007",
+      "state": "KARNATAKA",
+      "country": "India",
+      "id": 5
+    }
+  ]
+}

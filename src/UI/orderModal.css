@@ -1,0 +1,76 @@
+.modal-holder{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 50%;
+    z-index: 999;
+    border-radius: 20px;
+    box-shadow: 0 0 0 10000px rgba(0,0,0,.60);
+    margin-top: 75px;
+    border: 2px solid black;
+    position: fixed;
+}
+
+.textModal{
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: xxx-large;
+}
+
+.video{
+    margin-bottom: -30px;
+}
+
+.menuLink{
+    width: 40%;
+}
+
+.orderLink{
+    width: 40%;
+}
+
+.overlayModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5000px;
+    z-index: -1;
+  }
+
+  .modalButtonGroup{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+.goToMenu{
+    background-color: rgb(68, 68, 249);
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.goToMenu:hover{
+    background-color: white;
+    color: rgb(68, 68, 249);
+}
+
+.goToOrders{
+    background-color: rgb(68, 68, 249);
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 5px;
+}
+
+.goToOrders:hover{
+    background-color: white;
+    color: rgb(68, 68, 249);
+}

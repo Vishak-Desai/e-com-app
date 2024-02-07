@@ -1,0 +1,357 @@
+.signUp-page{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpForm-holder{
+    width: 500px;
+    margin-top: 20px;
+    padding: 50px;
+    border: 1px solid rgb(80, 79, 79);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+}
+
+.signUp-form{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.nameLabel{
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+#first{
+    padding: 5px;
+    border-radius: 5px;
+    width: 48%;
+    margin-right: 10px;
+}
+
+#first:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.signUp-form span{
+    margin-top: -30px;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#name{
+    margin-top: -20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#name p{
+    margin-right: 20px;
+    margin-bottom: 0px;
+    color: red;
+}
+
+#last{
+    padding: 5px;
+    border-radius: 5px;
+    width: 48%;
+}
+
+#last:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.emailLabel{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+#email{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.emailErr{
+    margin-bottom: 0px;
+    color: red;
+}
+
+#email:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.upUserNameLabel{
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#upUserName{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.upUserErr{
+    margin-bottom: -5px;
+    color: red;
+}
+
+#upUserName:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.phNumberLabel{
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#phNumber{
+    width: 100%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.phNumberErr{
+    margin-bottom: -5px;
+    color: red;
+}
+
+#phNumber:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.upPasswordLabel{
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#upPassword{
+    width: 89.7%;
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.upPassErr{
+    margin-bottom: -5px;
+    color: red;
+}
+
+#upPassword:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.confirmPasswordLabel{
+    margin-top: 10px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#confirmPassword{
+    width: 89.7%;
+    border-radius: 5px;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.confirmPassErr{
+    margin-bottom: -5px;
+    color: red;
+}
+
+#confirmPassword:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.addressLabel{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+#address{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.streetAddress{
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.streetErr{
+    color: red;
+    margin-bottom: -5px;
+}
+
+.streetAddress2{
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.streetAddress:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.miscelAddress{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+#country{
+    margin-top: 20px;
+    width: 49%;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#country:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.city{
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.cityErr{
+    margin-right: 75px;
+    color: red;
+    margin-bottom: -5px;
+}
+
+.city:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.zipCode{
+    border-radius: 5px;
+    padding: 5px;  
+}
+
+.zipErr{
+    color: red;
+    margin-bottom: -5px;
+}
+
+.zipCode:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.state{
+    margin-top: 20px;
+    border-radius: 5px;
+    margin-right: 9px;
+    padding: 5px;
+}
+
+.state:focus{
+    outline: none !important;
+    border: 1px solid rgb(0, 26, 255);
+    box-shadow: 0px 0px 5px rgb(0, 166, 255);
+}
+
+.signUp{
+    margin-top: 20px;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgb(0, 166, 255);
+}
+
+.signUp:hover{
+    background-color: rgb(0, 102, 255);
+}
+
+.stateErr{
+    color: red;
+    margin-right: 65px;
+    margin-bottom: -10px;
+}
+
+.countryErr{
+    color: red;
+    margin-bottom: -5px;
+}
+
+.signUpLink{
+    width: 100%;
+}
+
+.upEyeIcon{
+    border: 2px solid black;
+    padding: 8.8px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 356px;
+    position: relative;
+    top: 37px;
+    margin-top: -40px; 
+}
+
+.upEyeIcon:hover{
+    cursor: pointer;
+}
+
+.upConEyeIcon{
+    border: 2px solid black;
+    padding: 9px;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: 356px;
+    position: relative;
+    top: 37px;
+    margin-top: -40px; 
+}
+
+.upConEyeIcon:hover{
+    cursor: pointer;
+}

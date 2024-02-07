@@ -1,0 +1,10 @@
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: #E3F2C1;
+    padding: 50px;
+    margin-top: 60px;
+    min-height: 750px;
+}

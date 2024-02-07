@@ -1,0 +1,13 @@
+.copyright{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black
+}
+
+.copyright p{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
